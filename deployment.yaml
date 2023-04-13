@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mysql-producten-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mysql-producten
+  template:
+    metadata:
+      labels:
+        app: mysql-producten
+    spec:
+      volumes:
+        - name: producten-volume
+          persistentVolumeClaim:
+            claimName: producten-database-claim
+      containers:
+        - name: mysql-container
+          image: mysql
+          env:
+            - name: MYSQL_ROOT_PASSWORD
+              value: vdab
+          volumeMounts:
+            - mountPath: /var/lib/mysql
+              name: producten-volume

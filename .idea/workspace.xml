@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf46bbb3-57a4-4ba5-b38b-b3ce55af5c6b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySQLProducten.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/volume1.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/volume2.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/volume3.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/volumeclaim.yaml" afterDir="false" />
+    <list default="true" id="bf46bbb3-57a4-4ba5-b38b-b3ce55af5c6b" name="Changes" comment="hfdstk10">
+      <change afterPath="$PROJECT_DIR$/deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +37,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -54,11 +49,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1681402170819</updated>
-      <workItem from="1681402172093" duration="1611000" />
+      <workItem from="1681402172093" duration="4040000" />
     </task>
+    <task id="LOCAL-00001" summary="hfdstk10">
+      <created>1681404438418</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681404438418</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="hfdstk10" />
+    <option name="LAST_COMMIT_MESSAGE" value="hfdstk10" />
   </component>
 </project>
