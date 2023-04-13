@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: producten-database-claim
+spec:
+  storageClassName: voor-databases
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 15Mi

@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: volume3
+spec:
+  storageClassName: voor-tekstbestanden
+  capacity:
+    storage: 20Mi
+  accessModes:
+    - ReadWriteOnce
+  hostPath:
+    path: /data/volume3
